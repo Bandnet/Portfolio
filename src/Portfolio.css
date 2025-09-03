@@ -1,0 +1,215 @@
+/* Portfolio.css */
+.portfolio{
+    background-color: #180303;
+    width:100%;
+
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #180303;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    ;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Global styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111; /* dark background */
+    color: #fff;
+    width: 100%;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    background-color: limegreen;
+    display:flex;
+    color: black;
+    text-align: center;
+    padding: 2rem 1rem;
+    position:relative;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+/* About Me */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem 1rem;
+}
+
+.about img.profile-pic {
+    border-radius: 50%;
+    border: 5px solid limegreen;
+    width: 180px;
+    height: 180px;
+
+}
+
+.about h2 {
+    color: limegreen;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.projects {
+    padding: 3rem 1rem;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: limegreen;
+    margin-bottom: 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: #222;
+    border: 2px solid limegreen;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.project-card:focus {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    margin: 0 0 0.5rem;
+    color: limegreen;
+}
+
+.project-details {
+    margin-top: 0.8rem;
+    padding: 0.8rem;
+    background-color: #333;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+.git{
+
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background-color: limegreen;
+    flex-direction: row;
+    color: black;
+    justify-content: space-around;
+
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+/* Responsive layout */
+@media (max-width: 900px) {
+    /* About section stacks vertically */
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img.profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+
+    /* Projects grid goes 1 column */
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img {
+        height: 200px; /* taller images on small screens */
+    }
+
+
+}
+
+
