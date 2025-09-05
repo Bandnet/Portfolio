@@ -7,8 +7,7 @@ import dog4 from  "./assets/Dog4.jpg"
 import dog5 from  "./assets/Dog5.jpg"
 import dog6 from  "./assets/Dog6.jpg"
 import { SocialIcon } from 'react-social-icons'
-import React from 'react'
-import ReactDOM from 'react-dom'
+
 
 
 
@@ -71,6 +70,7 @@ export default function Portfolio() {
                         <a href="#start">Start</a>
                         <a href="#AboutMe">About Me</a>
                         <a href="#projekts">Projekts</a>
+                        <a href="#link">Links</a>
                     </div>
                 </div>
             </header>
@@ -192,8 +192,12 @@ export default function Portfolio() {
                     })}
                 </div>
             </section>
-            <div>
+            <div className="link" id="link">
+                <h3>LINKS:</h3>
                 <SocialIcon url="https://www.github.com" bgColor="limegreen" fgColor="black" />
+                <SocialIcon url="https://www.youtube.com" bgColor="limegreen" fgColor="black" />
+                <SocialIcon url="https://www.discord.com" bgColor="limegreen" fgColor="black" />
+                <SocialIcon url="https://www.spotify.com" bgColor="limegreen" fgColor="black" />
             </div>
 
             {/* Footer */}
