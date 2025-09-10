@@ -80,7 +80,6 @@ body {
     font-size: 1.2rem;
     margin: 0.5rem 0 0;
 }
-
 /* About Me */
 .about {
     display: flex;
@@ -203,7 +202,6 @@ body {
         width: 140px;
         height: 140px;
     }
-
     /* Projects grid goes 1 column */
     .project-grid {
         grid-template-columns: 1fr;

@@ -83,78 +83,19 @@ export default function Portfolio() {
                     className="profile-pic"
                 />
                 <div id="AboutMe">
-                    <h2>About Me</h2>
+                    <h2>Über mich</h2>
                     <p>
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
-                        somting wong somting wong somting wong somting wong somting wong
+                        Hallo,
+                        mein Name ist André und ich bin 16 Jahre alt.
+                        Ich mache eine Ausbildung zum Informatiker Fachrichtung Applikationsentwicklung und besuche derzeit das zweite Jahr an der IMS.
+
+                        In diesem Text erfährst du mehr über mich.
+                        Meine Hobbys sind Tennis und Simracing. Außerdem programmiere ich auch in meiner Freizeit sehr gerne.
+
+                        In diesem Portfolio findest du meine Projekte, die ich in den Praxislektionen erarbeitet habe. Wenn du auf ein Projekt klickst, erhältst du weitere Informationen dazu.
+                        Am Ende befinden sich Symbole, über die du direkt zu meinen Kanälen gelangst.
+
+
                     </p>
                 </div>
             </section>
