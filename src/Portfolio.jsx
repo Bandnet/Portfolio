@@ -140,7 +140,7 @@ export default function Portfolio() {
             </section>
             <div className="link" id="link">
                 <h3>LINKS:</h3>
-                <SocialIcon url="https://www.github.com" bgColor="limegreen" fgColor="black" />
+                <SocialIcon url="https://github.com/Bandnet" bgColor="limegreen" fgColor="black" />
                 <SocialIcon url="https://www.youtube.com" bgColor="limegreen" fgColor="black" />
                 <SocialIcon url="https://www.discord.com" bgColor="limegreen" fgColor="black" />
                 <SocialIcon url="https://www.spotify.com" bgColor="limegreen" fgColor="black" />
