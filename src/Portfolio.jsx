@@ -1,5 +1,9 @@
 import { useState } from "react";
 import "./Portfolio.css";
+import Hamster from "./assets/Hamster.png"
+import Tictactoe from "./assets/Tictactoe.jpg"
+import ZooWebseite from "./assets/ZooWebseite.png"
+import Portfolioo from "./assets/img.png"
 import dog1 from  "./assets/Dog1.jpg"
 import dog2 from  "./assets/Dog2.jpg"
 import dog3 from  "./assets/Dog3.jpg"
@@ -18,31 +22,31 @@ export default function Portfolio() {
     const projects = [
         {
             id: 1,
-            title: "Cool Project 1",
-            image: dog2,
-            description: "This is a short description of Project 1.",
-            details: "Here you can add more information about Project 1."
+            title: "Hamster Spiel",
+            image: Hamster,
+            description: "Im hamster Spiel muss man der Hamster die Körenr einsammeln",
+            details: "Das Hamster Spiel war meine einleitung in die Informatik. Mit dem Spiel konnte ich die basis der Informatik lernen und konnte kentnisse aufbauen."
         },
         {
             id: 2,
-            title: "Cool Project 2",
-            image: dog3,
-            description: "This is a short description of Project 2.",
-            details: "Here you can add more information about Project 2."
+            title: "Arduino Tictactoe",
+            image: Tictactoe,
+            description: "Ich habe auf einem 8x8 Arduino Tictactoe programiert.",
+            details: "Das zu verfügung gestellte Arduino hatte ein 8x8 Screen. Darauf habe ich mit zwei von meinen Freunden 9 felder erstellt. Danach mussten wir noch die Spiellogik einfügen. Das Arduino hatte begrenzte Knöpfe, welche man benützen konnte. Dadurch mussten wir auch noch über die auswahl der felder nachdenken. Ich hatte viel spass mit dem Projekt, da es das erste Projekt war, beidem ich wirklich etwas etellt habe.  "
         },
         {
             id: 3,
-            title: "Cool Project 3",
-            image: dog4,
-            description: "This is a short description of Project 3.",
-            details: "Here you can add more information about Project 3."
+            title: "Zoo Webseite",
+            image: ZooWebseite,
+            description: "In dem Projekt musste ich eine Webseite zu einem Zoo erstellen",
+            details: "Diese Webseite habe ich mit HTML gemacht. Dazu war die Webseite eine Multipage, was heisst dass, ich die Seiten miteinader verlinken musste. Dies war meine erste richtige Webseite, welche ich erstellt habe."
         },
         {
             id: 4,
-            title: "Cool Project 4",
-            image: dog6,
-            description: "This is a short description of Project 4.",
-            details: "Here you can add more information about Project 4."
+            title: "Portfolio",
+            image: Portfolioo,
+            description: "In diesem Projekt habe ich eine Webseite über mich und meine Projekte gemacht.",
+            details: "Im Projekt Portfolio habe ich vieles neues gelernt. Ich habe Dropdownlisten Karten und Extensions für React benützt. Somit konnte ich mit react eine Webseite gestalten, inder ich Meine bisherigen Projekte anzeigen konnte."
         },
     ];
 
@@ -90,7 +94,7 @@ export default function Portfolio() {
                         Ich mache eine Ausbildung zum Informatiker Fachrichtung Applikationsentwicklung und besuche derzeit das zweite Jahr an der IMS.
 
                         In diesem Text erfährst du mehr über mich.
-                        Meine Hobbys sind Tennis und Simracing. Außerdem programmiere ich auch in meiner Freizeit sehr gerne.
+                        Meine Hobbys sind Tennis und Simracing. In meiner freizeit gehe ich gerne mit meinem Hund laufen. Außerdem programmiere ich auch in meiner Freizeit sehr gerne.
 
                         In diesem Portfolio findest du meine Projekte, die ich in den Praxislektionen erarbeitet habe. Wenn du auf ein Projekt klickst, erhältst du weitere Informationen dazu.
                         Am Ende befinden sich Symbole, über die du direkt zu meinen Kanälen gelangst.
