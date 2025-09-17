@@ -48,6 +48,7 @@ export default function Portfolio() {
             description: "In diesem Projekt habe ich eine Webseite über mich und meine Projekte gemacht.",
             details: "Im Projekt Portfolio habe ich vieles neues gelernt. Ich habe Dropdownlisten Karten und Extensions für React benützt. Somit konnte ich mit react eine Webseite gestalten, inder ich Meine bisherigen Projekte anzeigen konnte."
         },
+
     ];
 
     const toggleProject = (project) => {
@@ -82,7 +83,7 @@ export default function Portfolio() {
             {/* About Me */}
             <section className="about">
                 <img
-                    src={dog5}
+                    src={dog1}
                     alt="Profile"
                     className="profile-pic"
                 />
